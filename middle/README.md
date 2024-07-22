@@ -86,4 +86,14 @@ The [Architecture](architecture.md) document discusses architectural concepts an
 
 ## Additional Resources
 
--
+- [Frontend Developer Roadmap](https://frontendmasters.com/roadmap/): A visual guide to frontend development skills and technologies.
+- [MDN Web Docs](https://developer.mozilla.org/): Comprehensive documentation for web technologies.
+- [React Documentation](https://reactjs.org/docs/getting-started.html): Official documentation for React.
+- [JavaScript Info](https://javascript.info/): In-depth tutorials and articles on JavaScript.
+- [Performance Best Practices](https://web.dev/fast/): Best practices for web performance optimization.
+
+---
+
+By exploring these documents, you will gain a deeper understanding of the skills required for a Middle Developer and how to apply them effectively in your projects. If you have any questions or need further assistance, feel free to reach out or open an issue in this repository.
+
+Happy coding!
