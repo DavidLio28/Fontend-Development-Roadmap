@@ -77,6 +77,7 @@ We welcome contributions from the community! If you have suggestions, improvemen
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
+This guide is still under development and improvement. Please contribute to help us create the best possible roadmap together!
 
 ---
 
