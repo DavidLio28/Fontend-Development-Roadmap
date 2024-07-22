@@ -19,33 +19,42 @@ As a junior frontend developer, you are expected to have a solid understanding o
 
 ## HTML & CSS
 
-### HTML
+For detailed information on HTML and CSS best practices, refer to the following document:
+- [HTML & CSS for Junior Developers](html-css.md)
 
-- **Semantic HTML**: Use HTML5 semantic elements (e.g., `<header>`, `<footer>`, `<article>`) to structure your content.
-- **Forms and Input Types**: Understand various input types and form elements for user interaction.
+## JavaScript
 
-**Example:**
+Learn about JavaScript fundamentals and best practices for junior developers:
+- [JavaScript for Junior Developers](javascript.md)
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Example</title>
-</head>
-<body>
-    <form action="/submit" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="age">Age:</label>
-        <input type="number" id="age" name="age">
-        
-        <button type="submit">Submit</button>
-    </form>
-</body>
-</html>
+## React
+
+Get acquainted with React basics and best practices:
+- [React for Junior Developers](react.md)
+
+## Tools
+
+Familiarize yourself with essential tools and workflows:
+- [Tools for Junior Developers](tools.md)
+
+## Performance
+
+Explore performance optimization techniques to enhance your web applications:
+- [Performance Optimization for Junior Developers](performance.md)
+
+## Contributing
+
+Contributions are welcome! Please follow the guidelines for contributing to this repository and review open issues before submitting your changes.
+
+## Additional Resources
+
+- [MDN Web Docs](https://developer.mozilla.org/): Comprehensive documentation on web technologies.
+- [React Documentation](https://reactjs.org/docs/getting-started.html): Official React documentation.
+- [CSS Tricks](https://css-tricks.com/): Tips and techniques for CSS.
+- [JavaScript Info](https://javascript.info/): Detailed JavaScript tutorials and guides.
+
+---
+
+We hope this guide helps you grow as a frontend developer. If you have any questions or need further assistance, feel free to reach out or open an issue in this repository.
+
+Happy coding!
