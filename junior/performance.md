@@ -1,67 +1,30 @@
-# HTML & CSS for Junior Developers
+# Performance Optimization for Junior Developers
 
-Welcome to the HTML & CSS guide for junior developers! As a junior frontend developer, you should be comfortable with advanced HTML and CSS concepts and practices. This guide covers essential skills and techniques to help you build and style complex web pages and applications.
+Welcome to the performance optimization guide for junior developers! This guide provides essential tips and techniques to improve the performance of your web applications. Understanding and applying these practices will help ensure your applications run efficiently and provide a better user experience.
 
 ## Table of Contents
 
-- [Advanced HTML](#advanced-html)
-  - [Semantic HTML](#semantic-html)
-  - [Forms and Input Types](#forms-and-input-types)
-  - [Accessibility](#accessibility)
-- [Advanced CSS](#advanced-css)
-  - [Flexbox](#flexbox)
-  - [CSS Grid](#css-grid)
-  - [Animations and Transitions](#animations-and-transitions)
-  - [Preprocessors](#preprocessors)
-- [Best Practices](#best-practices)
+- [Optimizing JavaScript](#optimizing-javascript)
+  - [Minimizing and Bundling](#minimizing-and-bundling)
+  - [Code Splitting](#code-splitting)
+  - [Debouncing and Throttling](#debouncing-and-throttling)
+- [Optimizing CSS](#optimizing-css)
+  - [Minification](#minification)
+  - [Critical CSS](#critical-css)
+- [Optimizing Images](#optimizing-images)
+  - [Image Compression](#image-compression)
+  - [Responsive Images](#responsive-images)
+- [Lazy Loading](#lazy-loading)
+- [Caching](#caching)
 - [Additional Resources](#additional-resources)
 
-## Advanced HTML
+## Optimizing JavaScript
 
-### Semantic HTML
+### Minimizing and Bundling
 
-Semantic HTML elements provide meaning to the web content and improve accessibility and SEO. Some key semantic elements include:
-
-- `<header>`: Represents introductory content or navigational links.
-- `<nav>`: Defines a set of navigation links.
-- `<article>`: Represents a self-contained composition.
-- `<section>`: Defines a section in a document.
-- `<aside>`: Represents content indirectly related to the main content.
-- `<footer>`: Represents the footer of a section or document.
+- **Minification**: Reduce the size of your JavaScript files by removing unnecessary characters (e.g., spaces, comments). Use tools like UglifyJS or Terser.
 
 **Example:**
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semantic HTML Example</title>
-</head>
-<body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <article>
-            <h2>Article Title</h2>
-            <p>This is an article.</p>
-        </article>
-        <aside>
-            <h2>Related Information</h2>
-            <p>This is some related information.</p>
-        </aside>
-    </main>
-    <footer>
-        <p>&copy; 2024 My Website</p>
-    </footer>
-</body>
-</html>
+```bash
+npx terser src/index.js -o dist/index.min.js
