@@ -65,7 +65,7 @@ HTML5 introduces new elements that provide better structure and semantics to web
         <p>&copy; 2024 My Website</p>
     </footer>
 </body>
-</html>
+</html>```
 
 ### Forms and Input Types
 
