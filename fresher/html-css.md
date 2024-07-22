@@ -65,31 +65,4 @@ HTML5 introduces new elements that provide better structure and semantics to web
         <p>&copy; 2024 My Website</p>
     </footer>
 </body>
-</html>```
-
-### Forms and Input Types
-
-HTML5 offers new input types and attributes to enhance forms:
-
-- **`<input type="email">`**: Validates email addresses.
-- **`<input type="tel">`**: Provides a telephone number input field.
-- **`<input type="range">`**: Provides a slider for selecting a value.
-- **`<input type="date">`**: Allows date selection.
-
-```html
-<form action="/submit" method="post">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-    
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-    
-    <label for="age">Age:</label>
-    <input type="range" id="age" name="age" min="0" max="100">
-    
-    <label for="birthdate">Birthdate:</label>
-    <input type="date" id="birthdate" name="birthdate">
-    
-    <button type="submit">Submit</button>
-</form>
-
+</html>
